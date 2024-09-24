@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(images/slide-01.jpg);
+    background-position: left;
+    background-size:cover ;
+    height:100vh;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+}
+ 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: orangered;
+}
+.header .box {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    height:87.30vh;
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center;
+    color: aliceblue;
+    background-image:url(images/top-left-bg.jpg);
+}
+
+
+.header .box .ks {
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+}
+.header .box .text {
+    font-family: arial;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.header .box .ksbtn{
+    border: none;
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    color: orangered;
+    background-color: aliceblue;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.features{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.features .pera {
+    display: inline-block;
+    position: relative;
+    width: 550px;
+    height: 550px;
+    border: none;
+    margin-top: 80px;
+    margin-left: 80px;
+    
+}
+.features .pera .ab {
+    color: orangered;
+}
+.features .pera .heading{
+    font-weight: 700;
+    margin: 30px;
+    
+}
+.features .pera .card{
+    position: relative;
+}
+
+.features .pera .b {
+    color:rgb(11, 84, 219);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+
+}
+.features .pera .c {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 60px;
+
+}
+
+.features .photo {
+    float: right;
+    display: flex;
+    margin:110px 80px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+}
+.menu .head {
+    margin:110px;
+    color: orangered;
+}
+
+.menu .headbody{
+    margin: 80px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu .cakes {
+    display: flex;
+    justify-content: space-between;
+}
+.menu .cakes .cake1 {
+   
+
+}
+.chef{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.chef .our {
+    color: orangered;
+    margin-top: 80px;
+    text-align: center;
+}
+.chef .best{
+    font-weight: 900;
+    text-align: center;
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.chef .cards {
+    display:inline-block;
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+
+}
+.contact{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/reservation-bg.jpg);
+    
+}
+.contact .main {
+    display: inline-block;
+    position: relative;
+    border: none;
+    width: 700px;
+    height: 500px;
+    margin: 70px 60px;
+    color: aliceblue;
+}
+.contact .main .us {
+    margin-bottom: 25px;
+}
+.contact .main h3 {
+    font-weight: 800;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+}
+.contact .main .here {
+    font-size: 14px;
+    margin-bottom: 40px;
+    font-family: arial;
+}
+.contact .main .phone {
+    border: 1px solid white;
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    
+    
+}
+.contact .mar .email h4 {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.contact .mar .phone h4 {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.contact .main .email {
+    border: 1px solid white;
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.contact .form {
+   border: 2px solid white;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    float : right ;
+    margin:80px 30px;
+    padding: 4px;
+    border-radius: 5px;
+   opacity: 0.9;
+    
+    
+}
+.contact .main .mar{
+    display: flex;
+    gap:40px;
+    align-items: bottom;
+    justify-content: end;
+    
+}
+.contact .form h1{
+    text-align: center;
+    margin: 40px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact .form .name {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+.contact .form .phonenumber {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    margin-top:20px ;
+}
+.contact .form .guestno {
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+}
+.contact .form .email {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+.contact .form .date {
+    height: 30px;
+    width: 165px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+.contact .form .time {
+    height: 30px;
+    width: 165px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+.contact .form .Massage {
+    height: 140px;
+    width: 340px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    
+}
+.contact .form .Reservation-btn {
+    height: 40px;
+    width: 340px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-top:10px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    
+}
+.klassy{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+ .klassy .images{
+    display: flex;
+    margin-left: 40%;
+
+}
+.klassy .week {
+    margin-top: 80px;
+    text-align: center;
+    color: orangered;
+}
+.klassy h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.klassy .adds{
+    display: flex;
+    flex-direction:end;
+}
+.salad{
+    display: flex;
+    gap: 10px;
+    margin: 40px 40px;
+    margin-left: 40px;
+
+}
+.klassy .salad .fresh{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;  
+}
+.klassy .salad .dis{
+    font-size:13px;
+}
+.klassy .salad .price{
+     border:none;
+    width: 60px;
+    height:30px;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    text-align:center;
+}
+
+.salad2 {
+    display: flex;
+    gap: 10px;
+    margin: 40px 40px;
+}
+.klassy .salad2 .fresh2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;  
+}
+.klassy .salad2 .dis2{
+    font-size:13px;
+}
+.klassy .salad2 .price2{
+     border:none;
+    width: 60px;
+    height:30px;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    text-align:center;
+}
+
+.salad3 {
+    display: flex;
+    gap: 10px;
+    margin: 40px 40px;
+}
+.klassy .salad3 .fresh3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;  
+}
+.klassy .salad3 .dis3{
+    font-size:13px;
+}
+.klassy .salad3 .price3{
+     border:none;
+    width: 60px;
+    height:30px;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    text-align:center;
+}
+.klassy .add{
+    display: flex;
+    flex-direction:end;
+    
+}
+.salad4 {
+    display: flex;
+    gap: 10px;
+    margin: 40px 40px;
+
+}
+.klassy .salad4 .fresh4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;  
+}
+.klassy .salad4 .dis4{
+    font-size:13px;
+}
+.klassy .salad4 .price4{
+     border:none;
+    width: 60px;
+    height:30px;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    text-align:center;
+}
+.salad5 {
+    display: flex;
+    gap: 10px;
+    margin: 40px 40px;
+}
+.klassy .salad5 .fresh5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;  
+}
+.klassy .salad5 .dis5 {
+    font-size:13px;
+}
+.klassy .salad5 .price5{
+     border:none;
+    width: 60px;
+    height:30px;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    text-align:center;
+}
+.salad6 {
+    display: flex;
+    gap: 10px;
+    margin: 40px 40px;
+}
+.klassy .salad6 .fresh6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;  
+}
+.klassy .salad6 .dis6 {
+    font-size:13px;
+}
+.klassy .salad6 .price6{
+     border:none;
+    width: 60px;
+    height:30px;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    text-align:center;
+}
+.klassy .end {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    background-color: orangered;
+}
+.klassy  .endlogo {
+    position: absolute;
+    left:580px;
+    top: 30px;
+
+}
+.klassy .icons {
+    position: absolute;
+    top:30px;
+   left:40px;
+    color: white;
+    font-size: 28px;
+}
+.klassy .copy{
+    position: absolute;
+    right:30px;
+    top:30px;
+    color: white;
+    display:flex;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
